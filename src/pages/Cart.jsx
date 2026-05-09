@@ -2,7 +2,6 @@ import React from "react";
 import CartItem from "../components/CartItem";
 import { useCart } from "../context/CartContext";
 import { Link } from "react-router-dom";
-import CartItem from "../components/CartItem";
 
 import { ShoppingCart, ChevronLeft, Zap } from "lucide-react";
 
@@ -68,7 +67,7 @@ const Cart = () => {
               <Zap className="w-6 h-6" />
               <span>Proceed Securely</span>
             </Link>
-            
+
             <p className="text-xs text-gray-500 text-center mt-4">All transactions are encrypted and secure.</p>
           </div>
         </div>
